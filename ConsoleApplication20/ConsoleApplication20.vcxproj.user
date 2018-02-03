@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>.\L5RB.BUN .\L5RB</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>D:\Storage\My Documents\Visual Studio 2015\Projects\ConsoleApplication20\Release</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>"D:\Program Files (x86)\Electronic Arts\Need for Speed Carbon\TRACKS\L5RA.BUN_lastone" .\test2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>D:\Storage\My Documents\Visual Studio 2015\Projects\ConsoleApplication20\Release</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
