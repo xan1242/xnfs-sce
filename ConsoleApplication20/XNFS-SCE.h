@@ -5,8 +5,7 @@
 
 typedef struct StreamInfoStruct
 {
-	unsigned int ModelGroupName;
-	unsigned int Unk1;
+	char ModelGroupName[8];
 	unsigned int StreamChunkNumber;
 	unsigned int Unk2;
 	unsigned int MasterStreamChunkNumber;

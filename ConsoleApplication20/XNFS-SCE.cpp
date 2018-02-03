@@ -93,8 +93,7 @@ XNFSSCE_API StreamInfo StreamInfoReader(unsigned int InfoCount, long InfoChunkAd
 		{
 			fread(&TheStreamInfo[i], sizeof(StreamInfoStruct), 1, fin);
 			fprintf(logfile, "===INFO %d START===\n", i);
-			fprintf(logfile, "Model group name: %s\n", (char*)&TheStreamInfo[i].ModelGroupName);
-			fprintf(logfile, "Unk1: %x\n", TheStreamInfo[i].Unk1);
+			fprintf(logfile, "Model group name: %s\n", TheStreamInfo[i].ModelGroupName);
 			fprintf(logfile, "Stream chunk number: %d\n", TheStreamInfo[i].StreamChunkNumber);
 			fprintf(logfile, "Unk2: %x\n", TheStreamInfo[i].Unk2);
 			fprintf(logfile, "Master stream chunk number: %d\n", TheStreamInfo[i].MasterStreamChunkNumber);
